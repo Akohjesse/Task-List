@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding:0;
+    font-family:Raleway, sans-serif;
+}body{
+    background:grey;
+}.container{
+   width:35%;
+    margin:20px auto;
+    box-shadow:2px 3px 6px grey;
+    padding:10px;
+    background:rgb(255, 255, 255);
+    border-radius: 5px;
+}
+[type="text"]{
+    width:98%;
+    border-top:none;
+    border-left:none;
+    border-right: none;
+    border-bottom:1px solid grey;
+    outline:none;
+    margin:20px 0px;
+}
+.task{
+    border-bottom: 1px solid rgb(226, 226, 226);
+    padding:10px;
+}
+.filter{
+    padding:10px;
+}
+[type="button"],[type="submit" ]{
+    width:90px;
+    height:35px;
+    outline:none;
+    color:white;
+    border:none;
+    border-radius:5px;
+}
+[ name="task-submit" ]{
+    background:#0dd8d8;
+}
+[name="Clear-task"]{
+    background:black;
+}
+@font-face{
+    font-family:Raleway;
+    src: url(Raleway-VariableFont_wght.ttf);
+}

@@ -1,0 +1,20 @@
+.task-collection {
+  margin: 15px 0px;
+}
+.task-collection .task-item {
+  list-style: none;
+  font-size: 13px;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  border: 1px solid grey;
+}
+.task-collection .task-item #delete {
+  color: #f83c3c;
+  font-weight: bold;
+}
+.task-collection .task-item #delete:hover {
+  color: red;
+  text-shadow: 2px 3px 10px orangered;
+  cursor: pointer;
+}

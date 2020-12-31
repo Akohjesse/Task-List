@@ -1,0 +1,23 @@
+//styling defunct added Js elements
+
+.task-collection{
+   margin:15px 0px;
+   .task-item{
+    list-style:none;
+    font-size:13px;
+    display:flex;
+    justify-content: space-between;
+    padding:5px;
+    border:1px solid grey;
+    #delete{
+        color:rgb(248, 60, 60);
+        font-weight:bold;
+      
+        &:hover{
+            color:red;
+            text-shadow:2px 3px 10px orangered;
+            cursor:pointer; 
+        }
+    }
+}
+}
